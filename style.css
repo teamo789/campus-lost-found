@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f4f9;
+    color: #172033;
+}
+
+header {
+    background: #18264b;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.form-section,
+.items-section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0000000d;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #d5dbea;
+    font-size: 15px;
+}
+
+button {
+    background: #5b5de6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4445c7;
+}
+
+.item-card {
+    border: 1px solid #dfe4ef;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.item-card h3 {
+    margin-top: 0;
+}
+
+.status {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
